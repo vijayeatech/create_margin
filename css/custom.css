@@ -5,11 +5,14 @@ Created By		: xxxxxxxxxx xxxxxx
 Purpose			  : xxxxxxxxxxxxxxxxx
 *************************************************************************************/
 
-/*@font-face {
-	font-family: 'Lato-Regular';
-	src: url('../fonts/Lato-Regular.ttf') format('truetype');
-}*/
-
+@font-face {
+	font-family: 'Segoe-regular';
+	src: url('../fonts/segoeui.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Segoe-bold';
+    src: url('../fonts/segoeuib.ttf') format('truetype');
+}
 .push-5 {
     margin-bottom: 5px;
 }
@@ -118,8 +121,8 @@ Purpose			  : xxxxxxxxxxxxxxxxx
 .push-30-t {
     margin-top: 30px;
 }
-.push-26-t {
-    margin-top: 26px;
+.push-25-t {
+    margin-top: 25px;
 }
 .push-30-r {
     margin-right: 30px;
@@ -277,8 +280,9 @@ Purpose			  : xxxxxxxxxxxxxxxxx
 }
 a, button, input, a:focus {outline: 0;}
 li{list-style-type: none;display: inline;}
+h3{font-family: "Segoe-bold";}
 
-body{ text-transform: uppercase;color: #fff;}
+body{ text-transform: uppercase;color: #fff; font-family: "Segoe-regular"}
 .create-margin { 
   background-image: -webkit-linear-gradient(#6292c2, #190a0d );
   background-image: -o-linear-gradient(#6292c2 , #190a0d);
@@ -287,5 +291,9 @@ body{ text-transform: uppercase;color: #fff;}
   }
 .mainContent .table > thead > tr , .table > tbody > tr, .table > tfoot > tr, .table > thead > tr > td, .table > tbody > tr > td, .table > tfoot > tr > td{border-top: 0px; border-bottom: 1px solid #000;}
 .mainContent .table > thead > tr , .table > tbody > tr, .table > tfoot > tr, .table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th:first-child{border-top: 0px; border-bottom: 0px;}
+.mainContent .table tr td{color: #b2babd; font-size: 12px;}
 .mainContent .table tr td:last-child{text-align: right;}
 .mainContent .table tr td:first-child:before{width: 20px; color: green; height: 25px;}
+
+#footer-logo img{width: 190px;}
+
