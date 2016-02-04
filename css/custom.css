@@ -294,7 +294,8 @@ body{ text-transform: uppercase;color: #fff; font-family: "Segoe-regular"}
 .mainContent .table tr td{color: #b2babd; font-size: 12px;}
 .mainContent .table tr td:last-child{text-align: right;}
 .mainContent .table tr td:first-child:before{width: 20px; color: green; height: 25px;}
-.mainContent .table tr td #indicator {width: 15px; height: 35px; background-color: red; margin-right: 10px;}
+.mainContent .table tr td #indicator {width: 15px; height: 35px; background-color: #ff0000; margin-right: 10px;}
 
 #footer-logo img{width: 190px;}
-
+.meeting-room h4 {font-size: 14px;}
+.meeting-room h4 span {font-size: 18px;}
